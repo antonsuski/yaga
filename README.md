@@ -7,4 +7,4 @@
     - [ ] License
     - [x] Versions - semy
 
-> Code foramt will be changed with time
+> Code format will be changed with time
