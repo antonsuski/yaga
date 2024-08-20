@@ -1,0 +1,10 @@
+#pragma once
+
+#include <cstdint>
+
+namespace yaga::version
+{
+    constexpr std::uint32_t major{@yaga_MAJOR_VERSION@};
+    constexpr std::uint32_t minor{@yaga_MINOR_VERSION@};
+    constexpr std::uint32_t patch{@yaga_PATCH_VERSION@};
+} // namespace yaga
