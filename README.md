@@ -2,7 +2,9 @@
 ## 0.1.0
 
 - [ ] Infrastucture
-    - [ ] Foramter
+    - [x] Foramter
     - [x] Build
     - [ ] License
-    - [ ] Versions
+    - [x] Versions - semy
+
+> Code foramt will be changed with time
