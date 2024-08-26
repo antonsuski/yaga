@@ -1,6 +1,7 @@
 #pragma once
 
 #include <SDL3/SDL.h>
+#include <SDL3/SDL_video.h>
 
 #include <cstdint>
 #include <string>
@@ -10,6 +11,10 @@ class core {
     unsigned int m_w{};
     unsigned int m_h{};
 
+    int m_gl_major_v{3};
+    int m_gl_minor_v{2};
+
+    SDL_GLContext m_gl_contex{nullptr};
     SDL_Window *m_window{nullptr};
 
   public:
@@ -23,6 +28,7 @@ class core {
     const std::string get_sdl_comp_version();
 
     bool init();
+    bool init_opengl();
     void close();
 };
 } // namespace yaga
